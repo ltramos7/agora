@@ -1,4 +1,27 @@
 .logo-img{
+    grid-column: 1/2;
     height: 50px;
     width: 220px;
+}
+
+.navigation-container{
+    background-color: orange;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.nav-buttons{
+    background-color: greenyellow;
+    grid-column: 2/3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.phone-container{
+    grid-column: 3/4;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
