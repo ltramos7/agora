@@ -18,7 +18,7 @@
 
 .logo-img-2{
     height: 50px;
-    width: 121px;
+    width: 121px; 
     
 }
 
@@ -34,4 +34,6 @@
     display: flex;
     justify-content: center;
     align-items: center; 
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
