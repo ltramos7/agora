@@ -1,12 +1,12 @@
-a:link{
-    text-decoration: none;
-}
+/****** Logo Style ******/
 .logo-img{
     grid-column: 1/2;
     height: 50px;
     width: 220px;
 }
+/****** End of Logo Style ******/
 
+/****** Navigation Style ******/
 .nav-buttons{
     grid-column: 2/3;
     display: flex;
@@ -15,7 +15,6 @@ a:link{
     color:rgb(112, 133, 134);
      
 }
-
 .nav-buttons a{
     text-decoration: none;  
     color: rgb(112, 133, 134)
@@ -30,18 +29,17 @@ a:link{
     grid-template-columns: repeat(3, 1fr);
     padding-bottom: 20px;
 }
+/****** End of Navigation Style ******/
 
+
+/****** Phone Number Style ******/
 .phone-container{
     grid-column: 3/4;
     display: flex;
     justify-content: center;
     align-items: center; 
-    color:pink;
-
     color: rgb(0, 81, 111);
-    text-decoration: none;
-    
-    
+    text-decoration: none; 
 }
 
 .phone-link{
@@ -52,8 +50,8 @@ a:link{
 .phone-link:hover{
     color:rgb(212, 175, 55);
 }
+/****** End of Phone Number Style ******/
 
-/* rgb(212, 175, 55) goldish color*/
 
 /****** Dropdown ******/
 .dropdown {
@@ -73,8 +71,6 @@ a:link{
     z-index: 1;    
     border-radius: 5px;
 }
-
-
 
 .dropdown-content li{
     list-style: none;
