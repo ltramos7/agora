@@ -1,12 +1,10 @@
+a:link{
+    text-decoration: none;
+}
 .logo-img{
     grid-column: 1/2;
     height: 50px;
     width: 220px;
-}
-
-.navigation-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
 }
 
 .nav-buttons{
@@ -14,6 +12,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center; 
+
+}
+.navigation-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: pink;
+    padding-bottom: 20px;
 }
 
 .phone-container{
