@@ -45,6 +45,7 @@
 .phone-link{
     color: rgb(0, 81, 111);
     text-decoration: none;  
+    padding-left: 5px;
 }
 
 .phone-link:hover{
