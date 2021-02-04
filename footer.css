@@ -1,3 +1,16 @@
+.copy-right{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
 .footer-container{
     background-color: #00516f;
+    display: grid;
+
+}
+
+.logo-img-2{
+    height: 50px;
+    width: 121px
 }
