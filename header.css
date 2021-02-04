@@ -12,12 +12,12 @@ a:link{
     display: flex;
     justify-content: space-around;
     align-items: center; 
-
+    color:rgb(112, 133, 134);
+    
 }
 .navigation-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: pink;
     padding-bottom: 20px;
 }
 
@@ -26,4 +26,21 @@ a:link{
     display: flex;
     justify-content: center;
     align-items: center; 
+    color:pink;
+
+    color: rgb(0, 81, 111);
+    text-decoration: none;
+    
+    
 }
+
+.phone-link{
+    color: rgb(0, 81, 111);
+    text-decoration: none;  
+}
+
+.phone-link:hover{
+    color:rgb(212, 175, 55);
+}
+
+/* rgb(212, 175, 55) goldish color*/
