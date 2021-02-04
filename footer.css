@@ -8,6 +8,30 @@
     align-items: center; 
 }
 
+.dot{
+    background-color: #ffffff;
+    border-radius: 50%;
+    height:34px;
+    width: 34px;
+    position: absolute;
+    text-align: center;
+    
+}
+
+
+.dot1{
+    left: 20px;
+}
+
+.dot2{
+    left:80px;
+}
+.dot3{
+    left:180px;
+}
+
+
+
 .footer-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -36,4 +60,5 @@
     align-items: center; 
     margin-top: 30px;
     margin-bottom: 30px;
+    position: relative;
 }

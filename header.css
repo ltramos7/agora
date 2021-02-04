@@ -13,8 +13,18 @@ a:link{
     justify-content: space-around;
     align-items: center; 
     color:rgb(112, 133, 134);
-    
+     
 }
+
+.nav-buttons a{
+    text-decoration: none;  
+    color: rgb(112, 133, 134)
+}
+
+.nav-buttons a:hover{
+    color:rgb(212, 175, 55);
+}
+
 .navigation-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
