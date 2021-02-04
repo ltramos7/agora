@@ -5,13 +5,11 @@
 }
 
 .navigation-container{
-    background-color: orange;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
 .nav-buttons{
-    background-color: greenyellow;
     grid-column: 2/3;
     display: flex;
     justify-content: space-around;
@@ -20,7 +18,6 @@
 
 .phone-container{
     grid-column: 3/4;
-    background-color: pink;
     display: flex;
     justify-content: center;
     align-items: center; 
