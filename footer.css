@@ -2,15 +2,36 @@
     color: #fff;
     font-size: 15px;
     font-weight: 400;
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 .footer-container{
-    background-color: #00516f;
     display: grid;
-
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #00516f;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .logo-img-2{
     height: 50px;
-    width: 121px
+    width: 121px;
+    
+}
+
+.logo-img-container{
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.socials{
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
