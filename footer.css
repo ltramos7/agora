@@ -1,3 +1,30 @@
+/****** Footer Container Style ******/
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #00516f;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/****** End of Footer Container Style ******/
+
+
+/****** Logo Img Container Style ******/
+.logo-img-container{
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.logo-img-2{
+    height: 50px;
+    width: 121px; 
+    
+}
+/****** End of Logo Img Container Style ******/
+
+
+/****** Copyright Style ******/
 .copy-right{
     color: #fff;
     font-size: 15px;
@@ -7,53 +34,10 @@
     justify-content: center;
     align-items: center; 
 }
-
-.dot{
-    background-color: #ffffff;
-    border-radius: 50%;
-    height:34px;
-    width: 34px;
-    position: absolute;
-    text-align: center;
-    text-decoration: none;
-}
+/****** End of Copyright Style ******/
 
 
-.dot1{
-    margin-left: -75px;
-}
-
-.dot2{
-    margin-left: -20px;
-}
-.dot3{
-    margin-left: 30px;
-}
-
-
-
-
-.footer-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    background-color: #00516f;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.logo-img-2{
-    height: 50px;
-    width: 121px; 
-    
-}
-
-.logo-img-container{
-    grid-column: 2/3;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
-
+/****** Socials Style ******/
 .socials{
     grid-column: 2/3;
     display: flex;
@@ -68,3 +52,38 @@
 .socials a{
     color: #00516f;
 }
+/****** End of Socials Style ******/
+
+
+/****** Dot Style ******/
+.dot{
+    background-color: #ffffff;
+    border-radius: 50%;
+    height:34px;
+    width: 34px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dot1{
+    margin-left: -75px;
+}
+
+.dot2{
+    margin-left: -20px;
+}
+.dot3{
+    margin-left: 30px;
+}
+/****** End of Dot Style ******/
+
+
+
+
+
+
+
+
+
+
